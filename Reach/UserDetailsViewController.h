@@ -16,6 +16,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *industryLabel;
 @property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
 @property (weak, nonatomic) IBOutlet UILabel *favoritedLabel;
+@property (weak, nonatomic) IBOutlet UIImageView *circleMask;
+@property (weak, nonatomic) IBOutlet UIView *circleBorder;
 @property (strong) NSString *username;
 @property (strong) NSString *company;
 @property (strong) NSString *recruiterId;

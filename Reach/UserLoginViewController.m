@@ -23,6 +23,7 @@
     tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(hideKeyboard)];
     [tap setEnabled:YES];
     [self.view addGestureRecognizer:tap];
+    _loginViews.layer.cornerRadius = 7.0f;
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{

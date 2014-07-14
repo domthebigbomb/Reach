@@ -24,7 +24,6 @@
     [_checkedInTableView setDelegate:self];
     [_checkedInTableView setDataSource:self];
     self.navigationItem.title = _eventName;
-    
     studentPicUrls = [[NSMutableArray alloc] init];
     studentData = [[NSMutableArray alloc] init];
     studentImages = [[NSMutableDictionary alloc] init];
@@ -77,6 +76,7 @@
     [cell.descriptionLabel setText:[[studentData objectAtIndex:indexPath.row] objectForKey:@"summary"]];
     NSString *studentPicURLString = [[studentData objectAtIndex:indexPath.row]  objectForKey:@"pictureUrl"];
     UIImage *contactImage = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString: studentPicURLString]]];
+    cell.circleMask.layer.cornerRadius = cell.circleMask.layer.frame.size.width/2;
     [cell.contactPicView setImage:contactImage];
     /*
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{

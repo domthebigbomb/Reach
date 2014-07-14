@@ -12,10 +12,13 @@
 @implementation UserDetailsViewController
 
 -(void)viewDidLoad{
+    _circleMask.layer.cornerRadius = _circleMask.layer.frame.size.width/2;
+    [_circleMask addSubview:_contactPicView];
     [_contactPicView setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:_imageUrl]]]];
     [_fullNameLabel setText:[NSString stringWithFormat:@"%@ %@",[_userData objectForKey:@"firstName"],[_userData objectForKey:@"lastName"]]];
     [_headlineLabel setText:[_userData objectForKey:@"headline"]];
-    [_industryLabel setText:[_userData objectForKey:@"industry"]];
+    
+    [_industryLabel setText:[NSString stringWithFormat:@"Industry: %@",[_userData objectForKey:@"industry"]]];
     [_summaryLabel setText:[_userData objectForKey:@"summary"]];
 }
 
