@@ -16,5 +16,4 @@
 - (IBAction)ConnectWithLinkedIn:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *proceedButton;
 @property (weak,nonatomic) IBOutlet UIButton *linkedInButton;
-- (IBAction)ProceedToSignIn:(id)sender;
 @end

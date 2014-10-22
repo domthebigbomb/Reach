@@ -43,12 +43,6 @@
                         PFObject *objectId = object[@"linkedInData"];
                         NSLog(@"%@",[objectId objectId]);
                         [studentData addObject:[objectQuery getObjectWithId:[objectId objectId]]];
-                        /*
-                        [objectQuery getObjectInBackgroundWithId: [objectId objectId] block:^(PFObject *student, NSError *error) {
-                                NSLog(@"Student Info: %@",[student description]);
-                            [studentPicUrls addObject:[student objectForKey:@"pictureUrl"]];
-                        }];
-                         */
                         [_checkedInTableView reloadData];
                     }
                 }];

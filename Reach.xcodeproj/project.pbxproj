@@ -50,6 +50,7 @@
 		0B924D561971114F00EF0FB1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B924D551971114F00EF0FB1 /* Security.framework */; };
 		0B924D581971115200EF0FB1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B924D571971115200EF0FB1 /* StoreKit.framework */; };
 		0B924D5A1971115700EF0FB1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B924D591971115700EF0FB1 /* SystemConfiguration.framework */; };
+		0BCF67E81973A29F002EB2A3 /* ClipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BCF67E71973A29F002EB2A3 /* ClipView.m */; };
 		0BD2B0A4197134CC00C34885 /* UserTypeSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD2B0A3197134CC00C34885 /* UserTypeSelectViewController.m */; };
 		0BDB11F81971AF18001927BB /* PastUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB11F71971AF18001927BB /* PastUserCell.m */; };
 		0BDB11FB1971B031001927BB /* PastContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BDB11FA1971B031001927BB /* PastContactsViewController.m */; };
@@ -131,6 +132,8 @@
 		0B924D551971114F00EF0FB1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0B924D571971115200EF0FB1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0B924D591971115700EF0FB1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0BCF67E61973A29F002EB2A3 /* ClipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClipView.h; sourceTree = "<group>"; };
+		0BCF67E71973A29F002EB2A3 /* ClipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClipView.m; sourceTree = "<group>"; };
 		0BD2B0A2197134CC00C34885 /* UserTypeSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTypeSelectViewController.h; sourceTree = "<group>"; };
 		0BD2B0A3197134CC00C34885 /* UserTypeSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTypeSelectViewController.m; sourceTree = "<group>"; };
 		0BDB11F61971AF18001927BB /* PastUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PastUserCell.h; sourceTree = "<group>"; };
@@ -278,6 +281,8 @@
 				0B6F5769197159690024AB16 /* StudentCell.m */,
 				0BDB11F61971AF18001927BB /* PastUserCell.h */,
 				0BDB11F71971AF18001927BB /* PastUserCell.m */,
+				0BCF67E61973A29F002EB2A3 /* ClipView.h */,
+				0BCF67E71973A29F002EB2A3 /* ClipView.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -545,6 +550,7 @@
 				0BDB11F81971AF18001927BB /* PastUserCell.m in Sources */,
 				0BEF433F1970F99100BE67E9 /* AppDelegate.m in Sources */,
 				0B6F576D19715B7F0024AB16 /* LiveEventViewController.m in Sources */,
+				0BCF67E81973A29F002EB2A3 /* ClipView.m in Sources */,
 				0B54E7521971944400C75CC7 /* UserDetailsViewController.m in Sources */,
 				0BEF433B1970F99100BE67E9 /* main.m in Sources */,
 			);

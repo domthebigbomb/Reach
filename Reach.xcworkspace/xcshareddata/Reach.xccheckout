@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14B9D167-0A52-41E0-9EB9-C34EDA091DAF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Reach</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>82D1CF60433D04205277AC8A35A8EF71C331879B</key>
+		<string>https://github.com/domthebigbomb/Reach.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Reach.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>82D1CF60433D04205277AC8A35A8EF71C331879B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/domthebigbomb/Reach.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82D1CF60433D04205277AC8A35A8EF71C331879B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82D1CF60433D04205277AC8A35A8EF71C331879B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Reach</string>
+		</dict>
+	</array>
+</dict>
+</plist>
