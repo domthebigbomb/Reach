@@ -1,7 +1,7 @@
 LinkedIn-Reach
 ==============
 
-![ScreenShot](/SCREENSHOTS/site 1.png)
+![ScreenShot](/Screenshots/site 1.png)
 
 
 LinkedIn Hackathon - Reach (Top 10 Finalist)
